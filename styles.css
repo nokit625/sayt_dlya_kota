@@ -1,0 +1,72 @@
+body {
+  background-image: url(IMG_20250819_145757.jpg);
+
+  background-size: 100%;
+
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.asd {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  gap: 10px;
+}
+.sad {
+  background-color: pink;
+}
+.asd img {
+  width: 100px;
+  height: 100px;
+}
+.dsa {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+.das {
+  background-color: deeppink;
+}
+header {
+  text-align: center;
+}
+
+li {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+ol {
+  text-align: center;
+}
+
+.photo {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.photo img {
+  width: 800px;
+  height: 800px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.foto_02 {
+  display: flex;
+  justify-content: space-between;
+  width: 3000px;
+}
+.foto_homyak {
+  width: 200px;
+  height: 200px;
+  transition: all 1s ease 0s;
+  transition-property: all;
+  transition-duration: 2s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+.foto_homyak:hover {
+  scale: 2;
+}
